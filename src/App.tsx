@@ -14,7 +14,7 @@ const PlannerPage = lazy(() => import('./pages/PlannerPage').then((module) => ({
 
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AccountGate>
         <Routes>
           <Route element={<AppLayout />}>
