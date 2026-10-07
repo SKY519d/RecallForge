@@ -148,3 +148,10 @@ The store keeps the revision logic separate from React components; account-scope
 - Additional export formats and richer review-history spreadsheet sheets.
 - Opt-in accessibility preferences such as larger type and custom contrast.
 - An optional, clearly separated adaptive review suggestion layer that never hides or alters the canonical schedule.
+# Live website
+
+The site is deployed to GitHub Pages at https://sky519d.github.io/RecallForge/.
+Pushes to `main` build and publish the website automatically through the
+`Deploy website to GitHub Pages` workflow. If Pages has not been enabled for the
+repository yet, set **Settings → Pages → Build and deployment → Source** to
+**GitHub Actions**.
